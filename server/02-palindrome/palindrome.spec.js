@@ -13,7 +13,9 @@ describe('the palindrome canary spec', () => {
   it('true for mom mom', () => {
       expect(isPalindrome('mom mom')).toBe(true);
   });
-  it.todo('false for dad mom');
+  it('false for dad mom', () => {
+      expect(isPalindrome('dad mom')).toBe(false);
+  });
   it.todo('true for whitespace');
   it.todo('error for empty string');
   it.todo('error for not a string');
